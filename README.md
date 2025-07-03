@@ -13,22 +13,48 @@ Backend:
 - Node
 - Express
 
+## Requisitos
+
+Pontos de atenção para rodar a aplicação corretamente:
+- Versão do node: >= 22.17.0
+- git
+- npm
+
 ## Como rodar a aplicação:
+
+1. Clonar o repositório
 ```
-Clonar o repositório
 git clone https://github.com/nathbrito/registration-form.git
+```
 
-Entrar na pasta do projeto
+2. Entrar na pasta do projeto
+```
 cd registration-form
+```
 
-Instalar dependências
+3. Instalar dependências do front-end
+```
 npm install
+```
 
-Buildar front-end
+4. Buildar front-end
+```
 npm run build
+```
 
-Rodar backend
-npm run backend
+5. Entrar na pasta do server (dentro do registration-form)
+```
+cd server
+```
+
+6. Instalar dependências do server
+```
+npm install
+```
+
+7.Rodar backend
+```
+npm run server
 ```
 
 ## Validações
